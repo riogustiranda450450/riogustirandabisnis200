@@ -1,0 +1,236 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #cdc8c3;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-image: url('gambar/walpaper_web1.png');
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  color: #fbf6f6;
+  padding: 120px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header .btn {
+  background: #5a3939;
+  color: #6c7670;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+header .btn:hover {
+  color: #ffa500;
+  transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/* Products Section */
+#products {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#products h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.product-box {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #cdc8c3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-box video {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.product-box p {
+  font-size: 1.2rem;
+  color: #e74c3c;
+}
+
+.product-box .btn {
+  background: #d7cac8;
+  color: #312a2a;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.product-box .btn:hover {
+  color: #ffa500;
+  transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/* Testimonials Section */
+#testimonials {
+  background: #f1f1f1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#testimonials h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.testimonial-box {
+  display: inline-block;
+  width: 40%;
+  margin: 10px;
+  padding: 20px;
+  background: #5b5353;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-box p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.testimonial-box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Responsiveness */
+
+/* Untuk perangkat dengan layar kurang dari 1024px (tablet) */
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  #products h2,
+  #testimonials h2 {
+    font-size: 2rem;
+  }
+
+  .product-box,
+  .testimonial-box {
+    width: 45%;
+  }
+}
+
+/* Untuk perangkat dengan layar kurang dari 768px (ponsel besar/tablet kecil) */
+@media (max-width: 768px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header .btn {
+    padding: 8px 20px;
+  }
+
+  .product-box,
+  .testimonial-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #products h2,
+  #testimonials h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-box h3,
+  .testimonial-box h4 {
+    font-size: 1.3rem;
+  }
+
+  .product-box p,
+  .testimonial-box p {
+    font-size: 1rem;
+  }
+}
+
+/* Untuk perangkat dengan layar kurang dari 480px (ponsel kecil) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  header .btn {
+    padding: 6px 15px;
+    font-size: 0.9rem;
+  }
+
+  #products h2,
+  #testimonials h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-box h3,
+  .testimonial-box h4 {
+    font-size: 1.2rem;
+  }
+
+  .product-box p,
+  .testimonial-box p {
+    font-size: 0.9rem;
+  }
+}
+
+/*HALAMAN 1 */
